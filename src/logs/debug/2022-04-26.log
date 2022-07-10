@@ -1,0 +1,130 @@
+2022-04-26 15:14:06 info: =================================
+2022-04-26 15:14:06 info: ======= ENV: development =======
+2022-04-26 15:14:06 info: 🚀 App listening on the port 3000
+2022-04-26 15:14:06 info: =================================
+2022-04-26 15:14:51 info: =================================
+2022-04-26 15:14:51 info: ======= ENV: development =======
+2022-04-26 15:14:51 info: 🚀 App listening on the port 3000
+2022-04-26 15:14:51 info: =================================
+2022-04-26 15:16:21 info: =================================
+2022-04-26 15:16:21 info: ======= ENV: development =======
+2022-04-26 15:16:21 info: 🚀 App listening on the port 3000
+2022-04-26 15:16:21 info: =================================
+2022-04-26 15:16:29 info: =================================
+2022-04-26 15:16:29 info: ======= ENV: development =======
+2022-04-26 15:16:29 info: 🚀 App listening on the port 3000
+2022-04-26 15:16:29 info: =================================
+2022-04-26 15:17:55 info: =================================
+2022-04-26 15:17:55 info: ======= ENV: development =======
+2022-04-26 15:17:55 info: 🚀 App listening on the port 3000
+2022-04-26 15:17:55 info: =================================
+2022-04-26 15:20:09 info: =================================
+2022-04-26 15:20:09 info: ======= ENV: development =======
+2022-04-26 15:20:09 info: 🚀 App listening on the port 3000
+2022-04-26 15:20:09 info: =================================
+2022-04-26 15:20:19 info: =================================
+2022-04-26 15:20:19 info: ======= ENV: development =======
+2022-04-26 15:20:19 info: 🚀 App listening on the port 3000
+2022-04-26 15:20:19 info: =================================
+2022-04-26 15:21:00 info: =================================
+2022-04-26 15:21:00 info: ======= ENV: development =======
+2022-04-26 15:21:00 info: 🚀 App listening on the port 3000
+2022-04-26 15:21:00 info: =================================
+2022-04-26 15:21:57 info: =================================
+2022-04-26 15:21:57 info: ======= ENV: development =======
+2022-04-26 15:21:57 info: 🚀 App listening on the port 3000
+2022-04-26 15:21:57 info: =================================
+2022-04-26 15:22:10 info: =================================
+2022-04-26 15:22:10 info: ======= ENV: development =======
+2022-04-26 15:22:10 info: 🚀 App listening on the port 3000
+2022-04-26 15:22:10 info: =================================
+2022-04-26 15:53:47 info: [0mGET / [32m200[0m 7.158 ms - 2[0m
+2022-04-26 15:53:55 info: [0mGET /api-docs/ [32m200[0m 6.949 ms - -[0m
+2022-04-26 15:53:55 info: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 0.826 ms - -[0m
+2022-04-26 15:53:55 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [32m200[0m 9.387 ms - -[0m
+2022-04-26 15:53:55 info: [0mGET /api-docs/swagger-ui.css [32m200[0m 11.288 ms - -[0m
+2022-04-26 15:53:55 info: [0mGET /api-docs/swagger-ui-bundle.js [32m200[0m 11.325 ms - -[0m
+2022-04-26 15:53:56 info: [0mGET /api-docs/favicon-32x32.png [32m200[0m 2.021 ms - 628[0m
+2022-04-26 15:53:56 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 41.101 ms - -[0m
+2022-04-26 15:57:48 info: [0mGET /api-docs/ [36m304[0m 1.628 ms - -[0m
+2022-04-26 15:57:48 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 11.147 ms - -[0m
+2022-04-26 15:57:48 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 8.304 ms - -[0m
+2022-04-26 15:57:48 info: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 1.487 ms - -[0m
+2022-04-26 15:57:48 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 4.231 ms - -[0m
+2022-04-26 15:57:49 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.639 ms - -[0m
+2022-04-26 15:57:50 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.715 ms - -[0m
+2022-04-26 15:59:42 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 17.226 ms - -[0m
+2022-04-26 15:59:43 info: [0mGET /api-docs/ [36m304[0m 1.104 ms - -[0m
+2022-04-26 15:59:43 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 0.638 ms - -[0m
+2022-04-26 15:59:43 info: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.469 ms - -[0m
+2022-04-26 15:59:43 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 2.447 ms - -[0m
+2022-04-26 15:59:43 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 2.446 ms - -[0m
+2022-04-26 15:59:43 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.945 ms - -[0m
+2022-04-26 15:59:44 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 2.065 ms - -[0m
+2022-04-26 15:59:55 info: =================================
+2022-04-26 15:59:55 info: ======= ENV: development =======
+2022-04-26 15:59:55 info: 🚀 App listening on the port 3000
+2022-04-26 15:59:55 info: =================================
+2022-04-26 16:00:00 info: [0mGET /api-docs/ [36m304[0m 9.332 ms - -[0m
+2022-04-26 16:00:00 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 2.295 ms - -[0m
+2022-04-26 16:00:00 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 3.381 ms - -[0m
+2022-04-26 16:00:00 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 3.474 ms - -[0m
+2022-04-26 16:00:00 info: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 2.048 ms - -[0m
+2022-04-26 16:00:00 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.610 ms - -[0m
+2022-04-26 16:00:01 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.566 ms - -[0m
+2022-04-26 16:00:05 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.728 ms - -[0m
+2022-04-26 16:00:06 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.707 ms - -[0m
+2022-04-26 16:00:07 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.653 ms - -[0m
+2022-04-26 16:00:07 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.955 ms - -[0m
+2022-04-26 16:01:57 info: =================================
+2022-04-26 16:01:57 info: ======= ENV: development =======
+2022-04-26 16:01:57 info: 🚀 App listening on the port 3000
+2022-04-26 16:01:57 info: =================================
+2022-04-26 16:02:31 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 7.872 ms - -[0m
+2022-04-26 16:02:33 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.517 ms - -[0m
+2022-04-26 16:03:56 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.344 ms - -[0m
+2022-04-26 16:11:00 info: =================================
+2022-04-26 16:11:00 info: ======= ENV: development =======
+2022-04-26 16:11:00 info: 🚀 App listening on the port 3000
+2022-04-26 16:11:00 info: =================================
+2022-04-26 16:12:18 info: [0mGET /api-docs/ [36m304[0m 17.858 ms - -[0m
+2022-04-26 16:12:18 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 3.246 ms - -[0m
+2022-04-26 16:12:18 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 5.338 ms - -[0m
+2022-04-26 16:12:18 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 14.000 ms - -[0m
+2022-04-26 16:12:18 info: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 2.790 ms - -[0m
+2022-04-26 16:12:18 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.649 ms - -[0m
+2022-04-26 16:12:20 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.587 ms - -[0m
+2022-04-26 16:13:02 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 3.124 ms - -[0m
+2022-04-26 16:13:05 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.200 ms - -[0m
+2022-04-26 16:13:05 info: [0mGET /api-docs/ [36m304[0m 1.413 ms - -[0m
+2022-04-26 16:13:06 info: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.560 ms - -[0m
+2022-04-26 16:13:06 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 4.870 ms - -[0m
+2022-04-26 16:13:06 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 1.332 ms - -[0m
+2022-04-26 16:13:06 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 52.755 ms - -[0m
+2022-04-26 16:13:06 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.634 ms - -[0m
+2022-04-26 16:13:07 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.130 ms - -[0m
+2022-04-26 16:13:09 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 1.054 ms - -[0m
+2022-04-26 16:13:10 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.968 ms - -[0m
+2022-04-26 16:15:51 error: [POST] /auth/initiate-registration >> StatusCode:: 400, Message:: phone must be a string
+2022-04-26 16:15:51 info: [0mPOST /auth/initiate-registration [33m400[0m 38.801 ms - 36[0m
+2022-04-26 16:16:25 info: [0mPOST /auth/initiate-registration [32m201[0m 1116.502 ms - 225[0m
+2022-04-26 16:21:52 info: =================================
+2022-04-26 16:21:52 info: ======= ENV: development =======
+2022-04-26 16:21:52 info: 🚀 App listening on the port 3000
+2022-04-26 16:21:52 info: =================================
+2022-04-26 16:22:21 info: =================================
+2022-04-26 16:22:21 info: ======= ENV: development =======
+2022-04-26 16:22:21 info: 🚀 App listening on the port 3000
+2022-04-26 16:22:21 info: =================================
+2022-04-26 16:22:38 info: =================================
+2022-04-26 16:22:38 info: ======= ENV: development =======
+2022-04-26 16:22:38 info: 🚀 App listening on the port 3000
+2022-04-26 16:22:38 info: =================================
+2022-04-26 16:22:53 info: =================================
+2022-04-26 16:22:53 info: ======= ENV: development =======
+2022-04-26 16:22:53 info: 🚀 App listening on the port 3000
+2022-04-26 16:22:53 info: =================================
+2022-04-26 16:23:12 info: =================================
+2022-04-26 16:23:12 info: ======= ENV: development =======
+2022-04-26 16:23:12 info: 🚀 App listening on the port 3000
+2022-04-26 16:23:12 info: =================================

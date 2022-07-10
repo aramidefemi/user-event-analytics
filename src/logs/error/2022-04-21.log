@@ -1,0 +1,24 @@
+2022-04-21 13:37:10 error: uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at App.listen (/Users/aramide/Desktop/projects/stersh-core/src/app.ts:32:5)
+    at Object.<anonymous> (/Users/aramide/Desktop/projects/stersh-core/src/server.ts:11:5)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1459:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at main (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/bin.ts:389:12)
+2022-04-21 13:37:20 error: uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at App.listen (/Users/aramide/Desktop/projects/stersh-core/src/app.ts:33:5)
+    at Object.<anonymous> (/Users/aramide/Desktop/projects/stersh-core/src/server.ts:11:5)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1459:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at main (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/bin.ts:389:12)

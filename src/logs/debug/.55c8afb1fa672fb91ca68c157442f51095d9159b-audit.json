@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/aramide/Desktop/projects/stersh-core/src/logs/debug/.55c8afb1fa672fb91ca68c157442f51095d9159b-audit.json",
+    "files": [
+        {
+            "date": 1650541729660,
+            "name": "/Users/aramide/Desktop/projects/stersh-core/src/logs/debug/2022-04-21.log",
+            "hash": "22cdb2637abae2fd28550598911713cc"
+        },
+        {
+            "date": 1650971165726,
+            "name": "/Users/aramide/Desktop/projects/stersh-core/src/logs/debug/2022-04-26.log",
+            "hash": "55cd5ab4eb6aa8a84461cf2ce8ec9430"
+        },
+        {
+            "date": 1651661593925,
+            "name": "/Users/aramide/Desktop/projects/stersh-core/src/logs/debug/2022-05-04.log",
+            "hash": "b9e141d20a9f65c06d55e74ba0b69bcf"
+        }
+    ],
+    "hashType": "md5"
+}

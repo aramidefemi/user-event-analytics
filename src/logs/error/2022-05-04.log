@@ -1,0 +1,351 @@
+2022-05-04 12:05:52 error: [POST] /auth/login >> StatusCode:: 400, Message:: email must be an email, phone must be a string, password must be a string
+2022-05-04 12:07:12 error: [POST] /auth/login >> StatusCode:: 400, Message:: phone must be a string
+2022-05-04 12:08:16 error: [POST] /auth/login >> StatusCode:: 409, Message:: MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+2022-05-04 12:08:32 error: [POST] /auth/login >> StatusCode:: 409, Message:: MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+2022-05-04 12:09:18 error: [POST] /auth/login >> StatusCode:: 409, Message:: MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+2022-05-04 12:11:12 error: [POST] /auth/login >> StatusCode:: 404, Message:: User not found
+2022-05-04 12:11:18 error: [POST] /auth/login >> StatusCode:: 404, Message:: User not found
+2022-05-04 12:16:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m18[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m     phonePrefix: string;
+[7m  [0m [91m                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m18[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m     phonePrefix: string;
+[7m  [0m [91m                       ~[0m
+
+    at createTSError (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:828:12)
+    at reportTSError (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:832:19)
+    at /Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1299:34
+    at Object.compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1326:43)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Module.require (internal/modules/cjs/loader.js:1090:19)
+2022-05-04 12:22:14 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m18[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m     phonePrefix: String;
+[7m  [0m [91m                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m18[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m     phonePrefix: String;
+[7m  [0m [91m                       ~[0m
+
+    at createTSError (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:828:12)
+    at reportTSError (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:832:19)
+    at /Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1299:34
+    at Object.compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1326:43)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Module.require (internal/modules/cjs/loader.js:1090:19)
+2022-05-04 12:26:55 error: uncaughtException: string is not defined
+ReferenceError: string is not defined
+    at Object.<anonymous> (/Users/aramide/Desktop/projects/stersh-core/src/models/users.model.ts:29:15)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1459:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Module.require (internal/modules/cjs/loader.js:1090:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (/Users/aramide/Desktop/projects/stersh-core/src/services/users.service.ts:5:1)
+2022-05-04 12:30:29 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/users.dto.ts[0m:[93m12[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'{' expected.
+
+[7m12[0m export class UpdateUserDto {
+[7m  [0m [91m~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/users.dto.ts[0m:[93m12[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'{' expected.
+
+[7m12[0m export class UpdateUserDto {
+[7m  [0m [91m~~~~~~[0m
+
+    at createTSError (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:828:12)
+    at reportTSError (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:832:19)
+    at /Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1299:34
+    at Object.compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1326:43)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Module.require (internal/modules/cjs/loader.js:1090:19)
+2022-05-04 12:30:45 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/users.dto.ts[0m:[93m26[0m:[93m6[0m - [91merror[0m[90m TS1442: [0mExpected '=' for property initializer.
+
+[7m26[0m     },
+[7m  [0m [91m     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/users.dto.ts[0m:[93m26[0m:[93m6[0m - [91merror[0m[90m TS1442: [0mExpected '=' for property initializer.
+
+[7m26[0m     },
+[7m  [0m [91m     ~[0m
+
+    at createTSError (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:828:12)
+    at reportTSError (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:832:19)
+    at /Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1299:34
+    at Object.compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1326:43)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Module.require (internal/modules/cjs/loader.js:1090:19)
+2022-05-04 12:34:29 error: uncaughtException: Identifier 'UserKycDto' has already been declared
+/Users/aramide/Desktop/projects/stersh-core/src/dtos/users.dto.ts:20
+class UserKycDto {
+^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Identifier 'UserKycDto' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1117:16)
+    at Module._compile (internal/modules/cjs/loader.js:1165:27)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1459:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Module.require (internal/modules/cjs/loader.js:1090:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (/Users/aramide/Desktop/projects/stersh-core/src/routes/auth.route.ts:3:1)
+2022-05-04 12:49:46 error: uncaughtException: Cannot read property 'completeRegistration' of undefined
+TypeError: Cannot read property 'completeRegistration' of undefined
+    at UsersRoute.initializeRoutes (/Users/aramide/Desktop/projects/stersh-core/src/routes/users.route.ts:25:27)
+    at new UsersRoute (/Users/aramide/Desktop/projects/stersh-core/src/routes/users.route.ts:14:10)
+    at Object.<anonymous> (/Users/aramide/Desktop/projects/stersh-core/src/server.ts:9:40)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1459:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+2022-05-04 12:50:07 error: uncaughtException: Cannot read property 'completeRegistration' of undefined
+TypeError: Cannot read property 'completeRegistration' of undefined
+    at UsersRoute.initializeRoutes (/Users/aramide/Desktop/projects/stersh-core/src/routes/users.route.ts:25:27)
+    at new UsersRoute (/Users/aramide/Desktop/projects/stersh-core/src/routes/users.route.ts:14:10)
+    at Object.<anonymous> (/Users/aramide/Desktop/projects/stersh-core/src/server.ts:9:40)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1459:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+2022-05-04 12:50:12 error: uncaughtException: UserKycDto is not defined
+ReferenceError: UserKycDto is not defined
+    at UsersRoute.initializeRoutes (/Users/aramide/Desktop/projects/stersh-core/src/routes/users.route.ts:21:62)
+    at new UsersRoute (/Users/aramide/Desktop/projects/stersh-core/src/routes/users.route.ts:14:10)
+    at Object.<anonymous> (/Users/aramide/Desktop/projects/stersh-core/src/server.ts:9:40)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1459:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+2022-05-04 12:50:28 error: uncaughtException: UserKycDto is not defined
+ReferenceError: UserKycDto is not defined
+    at UsersRoute.initializeRoutes (/Users/aramide/Desktop/projects/stersh-core/src/routes/users.route.ts:21:62)
+    at new UsersRoute (/Users/aramide/Desktop/projects/stersh-core/src/routes/users.route.ts:14:10)
+    at Object.<anonymous> (/Users/aramide/Desktop/projects/stersh-core/src/server.ts:9:40)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1459:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+2022-05-04 12:58:14 error: uncaughtException: Identifier 'UpdateUserDto' has already been declared
+/Users/aramide/Desktop/projects/stersh-core/src/dtos/users.dto.ts:106
+class UpdateUserDto {
+^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Identifier 'UpdateUserDto' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1117:16)
+    at Module._compile (internal/modules/cjs/loader.js:1165:27)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1459:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Module.require (internal/modules/cjs/loader.js:1090:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (/Users/aramide/Desktop/projects/stersh-core/src/routes/auth.route.ts:3:1)
+2022-05-04 12:58:53 error: uncaughtException: RegisterUserDto is not defined
+ReferenceError: RegisterUserDto is not defined
+    at AuthRoute.initializeRoutes (/Users/aramide/Desktop/projects/stersh-core/src/routes/auth.route.ts:19:67)
+    at new AuthRoute (/Users/aramide/Desktop/projects/stersh-core/src/routes/auth.route.ts:14:10)
+    at Object.<anonymous> (/Users/aramide/Desktop/projects/stersh-core/src/server.ts:9:58)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1459:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+2022-05-04 13:04:24 error: [POST] /v1/auth/login >> StatusCode:: 404, Message:: User not found
+2022-05-04 13:12:59 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/users.dto.ts[0m:[93m145[0m:[93m12[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m145[0m   @IsString
+[7m   [0m [91m           [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/users.dto.ts[0m:[93m145[0m:[93m12[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m145[0m   @IsString
+[7m   [0m [91m           [0m
+
+    at createTSError (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:828:12)
+    at reportTSError (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:832:19)
+    at /Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1299:34
+    at Object.compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1326:43)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Module.require (internal/modules/cjs/loader.js:1090:19)
+2022-05-04 13:16:32 error: uncaughtException: Identifier 'AuthUserDto' has already been declared
+/Users/aramide/Desktop/projects/stersh-core/src/dtos/users.dto.ts:155
+class AuthUserDto {
+^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Identifier 'AuthUserDto' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1117:16)
+    at Module._compile (internal/modules/cjs/loader.js:1165:27)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1459:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Module.require (internal/modules/cjs/loader.js:1090:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (/Users/aramide/Desktop/projects/stersh-core/src/routes/auth.route.ts:3:1)
+2022-05-04 13:16:38 error: uncaughtException: Identifier 'AuthUserDto' has already been declared
+/Users/aramide/Desktop/projects/stersh-core/src/dtos/users.dto.ts:155
+class AuthUserDto {
+^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Identifier 'AuthUserDto' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1117:16)
+    at Module._compile (internal/modules/cjs/loader.js:1165:27)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1459:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Module.require (internal/modules/cjs/loader.js:1090:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (/Users/aramide/Desktop/projects/stersh-core/src/routes/auth.route.ts:3:1)
+2022-05-04 13:16:59 error: uncaughtException: UserEmailDto is not defined
+ReferenceError: UserEmailDto is not defined
+    at AuthRoute.initializeRoutes (/Users/aramide/Desktop/projects/stersh-core/src/routes/auth.route.ts:22:73)
+    at new AuthRoute (/Users/aramide/Desktop/projects/stersh-core/src/routes/auth.route.ts:14:10)
+    at Object.<anonymous> (/Users/aramide/Desktop/projects/stersh-core/src/server.ts:9:58)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1459:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+2022-05-04 13:17:06 error: uncaughtException: UserEmailDto is not defined
+ReferenceError: UserEmailDto is not defined
+    at AuthRoute.initializeRoutes (/Users/aramide/Desktop/projects/stersh-core/src/routes/auth.route.ts:22:73)
+    at new AuthRoute (/Users/aramide/Desktop/projects/stersh-core/src/routes/auth.route.ts:14:10)
+    at Object.<anonymous> (/Users/aramide/Desktop/projects/stersh-core/src/server.ts:9:58)
+    at Module._compile (internal/modules/cjs/loader.js:1201:30)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1459:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+2022-05-04 13:19:32 error: [POST] /v1/auth/password-reset >> StatusCode:: 400, Message:: property password should not exist
+2022-05-04 13:19:44 error: [POST] /v1/auth/password-reset >> StatusCode:: 400, Message:: property emai should not exist, email must be an email
+2022-05-04 13:19:52 error: [POST] /v1/auth/password-reset >> StatusCode:: 404, Message:: User not found
+2022-05-04 13:24:52 error: [POST] /v1/auth/register >> StatusCode:: 400, Message:: property pin should not exist, email must be an email, password must be a string, otp must be a string, lastName must be a string, firstName must be a string, address must be a string, phone must be a string
+2022-05-04 13:25:02 error: [POST] /v1/user/pin >> StatusCode:: 404, Message:: Authentication token missing
+2022-05-04 13:26:15 error: uncaughtException: Identifier '_id' has already been declared
+/Users/aramide/Desktop/projects/stersh-core/src/controllers/users.controller.ts:43
+                const { _id } = req.body;
+                        ^
+
+SyntaxError: Identifier '_id' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1117:16)
+    at Module._compile (internal/modules/cjs/loader.js:1165:27)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1459:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Module.require (internal/modules/cjs/loader.js:1090:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (/Users/aramide/Desktop/projects/stersh-core/src/routes/users.route.ts:2:1)
+2022-05-04 13:26:21 error: uncaughtException: Identifier 'pin' has already been declared
+/Users/aramide/Desktop/projects/stersh-core/src/controllers/users.controller.ts:44
+                const { pin } = req.body;
+                        ^
+
+SyntaxError: Identifier 'pin' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1117:16)
+    at Module._compile (internal/modules/cjs/loader.js:1165:27)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1459:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Module.require (internal/modules/cjs/loader.js:1090:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (/Users/aramide/Desktop/projects/stersh-core/src/routes/users.route.ts:2:1)
+2022-05-04 13:26:33 error: uncaughtException: Identifier 'pin' has already been declared
+/Users/aramide/Desktop/projects/stersh-core/src/controllers/users.controller.ts:46
+                const { pin } = req.body;
+                        ^
+
+SyntaxError: Identifier 'pin' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1117:16)
+    at Module._compile (internal/modules/cjs/loader.js:1165:27)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1459:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Module.require (internal/modules/cjs/loader.js:1090:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (/Users/aramide/Desktop/projects/stersh-core/src/routes/users.route.ts:2:1)
+2022-05-04 13:26:42 error: uncaughtException: Identifier 'pin' has already been declared
+/Users/aramide/Desktop/projects/stersh-core/src/controllers/users.controller.ts:46
+                const { pin } = req.body;
+                        ^
+
+SyntaxError: Identifier 'pin' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1117:16)
+    at Module._compile (internal/modules/cjs/loader.js:1165:27)
+    at Module.m._compile (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1459:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1221:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/aramide/Desktop/projects/stersh-core/node_modules/ts-node/src/index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:1050:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:938:14)
+    at Module.require (internal/modules/cjs/loader.js:1090:19)
+    at require (internal/modules/cjs/helpers.js:75:18)
+    at Object.<anonymous> (/Users/aramide/Desktop/projects/stersh-core/src/routes/users.route.ts:2:1)
+2022-05-04 13:27:19 error: [GET] /v1/user/:id >> StatusCode:: 404, Message:: Authentication token missing
+2022-05-04 13:27:54 error: [PUT] /v1/user/:id >> StatusCode:: 400, Message:: Unexpected token k in JSON at position 4
+2022-05-04 13:28:07 error: [PUT] /v1/user/kyc >> StatusCode:: 404, Message:: Authentication token missing
+2022-05-04 13:28:27 error: [PUT] /v1/user/kyc >> StatusCode:: 500, Message:: Cannot destructure property '_id' of 'req.user' as it is undefined.
