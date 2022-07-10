@@ -15,4 +15,12 @@ describe('Testing Index', () => {
       return request(app.getServer()).get(`${indexRoute.path}`).expect(200);
     });
   });
+  describe('[POST] /', () => {
+    it('response statusCode 200', () => {
+      const indexRoute = new IndexRoute();
+      const app = new App([indexRoute]);
+
+      return request(app.getServer()).get(`${indexRoute.path}`).expect(200);
+    });
+  });
 });

@@ -1,9 +1,9 @@
-import { IsEmail, IsString, ValidateNested } from 'class-validator';
+import { IsNumber, IsString } from 'class-validator';
 
 export class CreateReminderDto {
   @IsString()
   public description: string;
-  @IsString()
+  @IsNumber()
   public user: string;
   @IsString()
   public date: string;

@@ -2,9 +2,9 @@ import { CreateReminderDto, FindReminderDto } from '@dtos/reminders.dto';
 import Model from '@models/reminders.model';
 
 class ReminderService {
-  public async find(query: FindReminderDto) {
+  public async find(query: any) {
     try {
-      const result = await Model.findOne(query);
+      const result = await Model.find(query);
       return { status: true, result };
     } catch (error) {
       return { status: false, error };

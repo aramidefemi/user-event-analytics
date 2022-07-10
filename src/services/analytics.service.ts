@@ -4,8 +4,8 @@ import Model from '@models/analytics.model';
 class AnalyticsService {
   private lastEventTimestamp = {};
   private eventsDelay = {
-    click: 10,
-    pageView: 60,
+    click: 3,
+    pageView: 5,
   };
 
   private eventsDelayDefinition(eventType: string) {
