@@ -16,11 +16,11 @@ class AnalyticsController {
             ++ingested;
           });
         },
-        (err: any, results: any) => {
+        (err: any) => {
           if (err) {
             return next(err);
           }
-          res.status(201).send({ ingested, results });
+          res.status(201).send({ ingested });
         },
       );
     } catch (error) {
